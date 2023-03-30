@@ -82,7 +82,7 @@ main {
 }
 
 .languages__skill {
-  max-width: 31rem;
+  min-width: 31rem;
   display: flex;
   gap: 6.5rem;
 }
