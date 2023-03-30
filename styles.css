@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", sans-serif;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+h2 {
+  color: #180a29;
+}
+.flex_2 h2 {
+  margin: 2rem 0;
+}
+.bold {
+  font-size: 18;
+
+  font-weight: bold;
+}
+
+img {
+  max-width: 15.5rem;
+  border-radius: 50%;
+}
+li {
+  margin-left: 1.2rem;
+}
+main {
+  display: flex;
+}
+.personalInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 15.5rem;
+}
+
+.personalDetailsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_1 {
+  padding: 1rem;
+  background-color: #180a29;
+  color: white;
+}
+.flex_1 h2 {
+  color: white;
+  margin: 1rem 0;
+}
+
+.flex_2 {
+  padding: 1rem 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.skills__wrap {
+  display: flex;
+}
+
+.languages {
+  display: flex;
+
+  gap: 3rem;
+}
+.languages__wrapper {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.languages__skill {
+  max-width: 31rem;
+  display: flex;
+  gap: 6.5rem;
+}
+
+.languages__skill p:nth-child(4) {
+  margin-left: 4rem;
+}
+
+.education {
+  display: flex;
+  align-items: center;
+}
+.education__duration {
+  width: 10rem;
+}
+.languages__language {
+  display: flex;
+  flex-direction: column;
+}
+.languages p {
+  margin: 0.2rem 0;
+}
+.education__details--heading {
+  font-weight: bold;
+  margin: 0.2rem 0;
+}
+
+.jobs {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+}
+.jobs__duration {
+  min-width: 10rem;
+}
+.jobs__details--heading {
+  font-weight: bold;
+}
+
+.contact_info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill__name {
+  margin: 0.5rem 0;
+}
+
+.skills__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.level {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.skills__level {
+  height: 1rem;
+  width: 1rem;
+  background: white;
+  border-radius: 50%;
+}
+
+.oneC,
+.oris {
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+@media (max-width: 400px) {
+  .languages__level p {
+    margin: 1.5rem 0;
+    align-items: center;
+  }
+  .languages__wrapper p {
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
